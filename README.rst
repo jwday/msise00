@@ -25,6 +25,8 @@ The yellow ball represents the sun footprint on Earth.
 
 Install
 =======
+**NOTE:** It is advisable to have a Python package of your choosing already installed. Anaconda, for example, comes with all of the packages used in msise00.
+
 If you don't already have Numpy::
 
     pip3 install numpy

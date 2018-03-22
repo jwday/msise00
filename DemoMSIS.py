@@ -48,7 +48,7 @@ if __name__ == '__main__':
         glat,glon = latlonworldgrid()
 
     altkm = atleast_1d(altkm)
-    print(f'using altitudes from {altkm[0]:.1f} to {altkm[-1]:.1f} km')
+    print('using altitudes from {altkm[0]:.1f} to {altkm[-1]:.1f} km')
 
     dens,temp = rungtd7(dtime,altkm,glat,glon,p.f107a,p.f107,p.ap)
 #%%

@@ -32,7 +32,9 @@ If you don't already have Numpy::
 
     
 1) Clone the repository ::
-  git clone <repo_URL>
+
+    git clone <repo_URL>
+
 
 2) Since this is not a works-out-of-the-box solution, you must first build the package. This is necessary since the original model was written in FORTRAN, whereas we're trying to use it in Python. In other words, we have to sort of "wrap" some Python code around the FORTRAN code, and the results will be different depending on what operating system you're running. So be sure you're in the same directory that you cloned the repository to, then run the following:
 
@@ -41,8 +43,10 @@ If you don't already have Numpy::
 * `Windows <https://www.scivision.co/windows-gcc-gfortran-cmake-make-install/>`_
 * Alternatively for Windows: Use Windows Subsystem for Linux, then follow the Linux installation instructions
 
-3) Install the package
-  pip install -e .
+
+3) Install the package ::
+
+    pip install -e .
   
   
   

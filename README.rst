@@ -27,12 +27,28 @@ Install
 =======
 **NOTE:** It is advisable to have a Python package of your choosing already installed. Anaconda, for example, comes with all of the packages used in msise00. Furthermore, this package will be installed using Python 3 commands. Linux (and Windows Subsystem for Linux) default to Python 2.7 in the Command Line Interface (CLI), but 2.7 is going the way of the dinosaur and we like to look forward, not backward.
 
-If you don't already have pip (a Python package manager that lets you install other packages) installed::
+If you don't already have Python 3 ::
+
+   sudo add-apt-repository ppa:deadsnakes/ppa
+   sudo apt-get update
+   sudo apt-get install python3.6
+
+
+
+pip3 (a Python 3 package manager that lets you install other packages) should already come installed with Python. To see if you have it ::
+
+    command -v pip3
+
+
+
+In case you don't have pip3 ::
 
     sudo apt-get install python-pip
+    sudo pip3 install --upgrade pip
 
 
-The other packages required are::
+
+Once pip3 is installed, there are a number of other packages that are needed to run msise00 ::
 
     pip3 install numpy
     pip3 install pandas
@@ -41,7 +57,7 @@ The other packages required are::
 
 
 
-Clone the repository ::
+Now with everything installed, lets get to work on msise00. Start by clone the repository into a directory of your choice ::
 
     git clone <repo_URL>
 
@@ -51,7 +67,7 @@ Since this is not a works-out-of-the-box solution, you must first build the pack
 * Mac: ``brew install gcc``
 * Linux: ``sudo apt-get update && sudo apt-get install gfortran``
 * `Windows <https://www.scivision.co/windows-gcc-gfortran-cmake-make-install/>`_
-* Alternatively for Windows: Use Windows Subsystem for Linux, then follow the Linux installation instructions
+* Alternatively for Windows: Use Windows Subsystem for Linux, then follow the Linux installation instructions. This is the preferred method for Windows, but requires the user to have already set up Windows Subsystem for Linux (this author uses Ubuntu and acquired it from the Microsoft Store app).
 
 
 Install msise00 ::

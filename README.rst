@@ -25,7 +25,10 @@ The yellow ball represents the sun footprint on Earth.
 
 Install
 =======
-**NOTE:** It is advisable to have a Python package of your choosing already installed. Anaconda, for example, comes with all of the packages used in msise00.
+**NOTE:** It is advisable to have a Python package of your choosing already installed. Anaconda, for example, comes with all of the packages used in msise00. Furthermore, this package will be installed using Python 3 commands. Linux (and Windows Subsystem for Linux) default to Python 2.7 in the Command Line Interface (CLI), but 2.7 is going the way of the dinosaur and we like to look forward, not backward.
+
+If you don't already have pip (a Python package manager that lets you install other packages) installed::
+    sudo apt-get install python-pip
 
 If you don't already have Numpy::
 

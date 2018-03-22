@@ -27,7 +27,10 @@ Install
 =======
 If you don't already have Numpy::
 
-    pip install numpy
+    pip3 install numpy
+    pip3 install pandas
+    pip3 install python-dateutil
+    pip3 install matplotlib
 
 
 
@@ -44,9 +47,11 @@ Since this is not a works-out-of-the-box solution, you must first build the pack
 * Alternatively for Windows: Use Windows Subsystem for Linux, then follow the Linux installation instructions
 
 
-Install the package ::
+Install msise00 ::
 
-    pip install -e .
+    pip3 install -e .
+    
+* Be sure you're in the msise00 directory when running pip install -e
   
   
   

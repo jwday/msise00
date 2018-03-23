@@ -54,6 +54,8 @@ Once pip3 is installed, there are a number of other packages that are needed to 
     pip3 install pandas
     pip3 install python-dateutil
     pip3 install matplotlib
+    pip3 install scipy
+    pip3 install seaborn
 
 
 

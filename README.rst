@@ -29,9 +29,9 @@ Install
 
 If you don't already have Python 3 ::
 
-   sudo add-apt-repository ppa:deadsnakes/ppa
-   sudo apt-get update
-   sudo apt-get install python3.6
+   add-apt-repository ppa:deadsnakes/ppa
+   apt-get update
+   apt-get install python3.6
 
 
 
@@ -43,8 +43,8 @@ pip3 (a Python 3 package manager that lets you install other packages) should al
 
 In case you don't have pip3 ::
 
-    sudo apt-get install python-pip
-    sudo pip3 install --upgrade pip
+    apt-get install python-pip
+    pip3 install --upgrade pip
 
 
 

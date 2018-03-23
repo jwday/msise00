@@ -56,6 +56,9 @@ Once pip3 is installed, there are a number of other packages that are needed to 
     pip3 install matplotlib
     pip3 install scipy
     pip3 install seaborn
+    pip3 install astropy
+    pip3 install pymap3d
+    pip3 install gridaurora
 
 
 

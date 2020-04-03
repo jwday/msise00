@@ -52,6 +52,16 @@ Once pip is installed, there are a number of other packages that are needed to r
     pip install gridaurora
 
 
+You will also need a FORTRAN compiler to...compile. Try this one ::
+
+    sudo apt-get install gfortran
+
+
+Furthermore, you will also need a builder to...build. Try this one ::
+
+    sudo apt-get install cmake
+
+
 
 Now with everything installed, lets get to work on msise00. Start by clone the repository into a directory of your choice ::
 

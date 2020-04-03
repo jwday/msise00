@@ -13,6 +13,15 @@ The yellow ball represents the sun footprint on Earth.
 
 Install
 =======
+There are a lot of steps to installing this package, most of which are glossed over or skipped completely in the official distro. Nothing against *space-physics*, as I'm sure they assume their target audience knows what they're doing. Unfortuantely, I am also in their target audience, and I did not know what I was doing. So here's what's going to happen:
+
+1. Install Python 3
+2. Install a bunch of Python packages
+3. Install gfortran
+4. Install msise00
+4a. Install cmake
+
+
 **NOTE:** It is advisable to have a Python package of your choosing already installed. Anaconda, for example, comes with all of the packages used in msise00. Furthermore, this package will be installed using Python 3 commands. Linux (and Windows Subsystem for Linux) default to Python 2.7 in the Command Line Interface (CLI), but 2.7 is going the way of the dinosaur and we like to look forward, not backward.
 
 If you don't already have Python 3 ::

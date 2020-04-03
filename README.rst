@@ -1,3 +1,5 @@
+This readme file is the "msise00 for dummies" version. For those of us who didn't study computer science and don't speak Python/C++/FORTRAN/HTML/CSS/javascript/KOBOL as a second language(s), hopefully this will help clear the mud.
+
 .. image:: https://zenodo.org/badge/32971905.svg
    :target: https://zenodo.org/badge/latestdoi/32971905
    

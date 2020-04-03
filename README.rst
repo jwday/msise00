@@ -17,10 +17,12 @@ Install
 
 If you don't already have Python 3 ::
 
-   add-apt-repository ppa:deadsnakes/ppa
-   apt-get update
-   apt-get install python3.6
+    add-apt-repository ppa:deadsnakes/ppa
+    apt-get update
+    apt-get install python3.7
 
+Alternatively, just install Anaconda because it's awesome.
+Follow the instructions at https://docs.anaconda.com/anaconda/install/linux/
 
 
 pip (a Python package manager that lets you install other packages) should already come installed with Python. To see if you have it ::

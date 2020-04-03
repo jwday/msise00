@@ -1,19 +1,5 @@
 This readme file is the "msise00 for dummies" version. For those of us who didn't study computer science and don't speak Python/C++/FORTRAN/HTML/CSS/javascript/KOBOL as a second language(s), hopefully this will help clear the mud.
 
-.. image:: https://zenodo.org/badge/32971905.svg
-   :target: https://zenodo.org/badge/latestdoi/32971905
-   
-.. image:: https://travis-ci.org/scivision/msise00.svg
-    :target: https://travis-ci.org/scivision/msise00
-    
-.. image:: https://coveralls.io/repos/scivision/msise00/badge.svg?branch=master&service=github 
-   :target: https://coveralls.io/github/scivision/msise00?branch=master 
-   
-.. image:: https://api.codeclimate.com/v1/badges/f6f206d6f6605bcf435d/maintainability
-   :target: https://codeclimate.com/github/scivision/msise00/maintainability
-   :alt: Maintainability
-
-
 ==========
 msise-00
 ==========

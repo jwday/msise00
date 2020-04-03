@@ -23,30 +23,30 @@ If you don't already have Python 3 ::
 
 
 
-pip3 (a Python 3 package manager that lets you install other packages) should already come installed with Python. To see if you have it ::
+pip (a Python package manager that lets you install other packages) should already come installed with Python. To see if you have it ::
 
-    command -v pip3
+    command -v pip
 
 
 
-In case you don't have pip3 ::
+In case you don't have pip ::
 
     apt-get install python-pip
-    pip3 install --upgrade pip
+    pip install --upgrade pip
 
 
 
-Once pip3 is installed, there are a number of other packages that are needed to run msise00 ::
+Once pip is installed, there are a number of other packages that are needed to run msise00 ::
 
-    pip3 install numpy
-    pip3 install pandas
-    pip3 install python-dateutil
-    pip3 install matplotlib
-    pip3 install scipy
-    pip3 install seaborn
-    pip3 install astropy
-    pip3 install pymap3d
-    pip3 install gridaurora
+    pip install numpy
+    pip install pandas
+    pip install python-dateutil
+    pip install matplotlib
+    pip install scipy
+    pip install seaborn
+    pip install astropy
+    pip install pymap3d
+    pip install gridaurora
 
 
 
@@ -64,11 +64,11 @@ Since this is not a works-out-of-the-box solution, you must first build the pack
 
 
 Install msise00 ::
-   ```
-   git clone https://github.com/space-physics/msise00
 
-   python -m pip install -e msise00
-   ```
+    git clone https://github.com/space-physics/msise00
+
+    python -m pip install -e msise00
+
 * Be sure you're NOT in the msise00 directory when running pip install -e
   
   

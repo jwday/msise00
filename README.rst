@@ -22,13 +22,14 @@ If you don't already have Python 3 ::
     apt-get install python3.7
 
 Alternatively, just install Anaconda because it's awesome.
+
 Follow the instructions at https://docs.anaconda.com/anaconda/install/linux/
+
 
 
 pip (a Python package manager that lets you install other packages) should already come installed with Python. To see if you have it ::
 
     command -v pip
-
 
 
 In case you don't have pip ::
@@ -38,7 +39,7 @@ In case you don't have pip ::
 
 
 
-Once pip is installed, there are a number of other packages that are needed to run msise00 ::
+Once pip is installed, there are a number of other packages that are needed to run msise00. If you don't already have the following packages, install them ::
 
     pip install numpy
     pip install pandas
@@ -73,8 +74,9 @@ Install msise00 ::
 
 * Be sure you're NOT in the msise00 directory when running pip install -e
   
-  
-  
+
+
+ 
 
 Examples:
 ---------

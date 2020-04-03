@@ -52,14 +52,39 @@ Once pip is installed, there are a number of other packages that are needed to r
     pip install gridaurora
 
 
-You will also need a FORTRAN compiler to...compile. Try this one ::
 
-    sudo apt-get install gfortran
-
-
-Furthermore, you will also need a builder to...build. Try this one ::
+You will also need a builder to...build...the installation files. Not sure what this is about, but it's necessary.  ::
 
     sudo apt-get install cmake
+
+Sometimes though, the *apt* database doesn't have the most up-to-date versions of programs. As of 4/2/2020, cmake 3.13 or greater is required to run msise00, but *apt* only contains cmake up to v3.10. To install the most up-to-date version of cmake, go through this process:
+
+Download the latest version of the source files into your home directory ::
+
+    wget https://github.com/Kitware/CMake/releases/download/v3.17.0/cmake-3.17.0.tar.gz
+    
+Extract the contents of the *tarballs* archive ::
+
+    tar -zxvf cmake-3.17.0.tar.gz
+
+Go into the newly extracted directly and *bootstrap* it ::
+
+    cd cmake-3.17.0
+    ./bootstrap
+
+Once it's done bootstrapping, *make* it ::
+
+    make
+
+
+Then, *make install* it ::
+
+    sudo make install
+
+Check the version and make sure everything installed correctly by running ::
+
+    cmake --version
+    
 
 
 
@@ -73,7 +98,8 @@ Since this is not a works-out-of-the-box solution, you must first build the pack
 * Mac: ``brew install gcc``
 * Linux: ``sudo apt-get update && sudo apt-get install gfortran``
 * `Windows <https://www.scivision.co/windows-gcc-gfortran-cmake-make-install/>`_
-* Alternatively for Windows: Use Windows Subsystem for Linux, then follow the Linux installation instructions. This is the preferred method for Windows, but requires the user to have already set up Windows Subsystem for Linux (this author uses Ubuntu and acquired it from the Microsoft Store app).
+* Alternatively for Windows: Use Windows Subsystem for Linux, then follow the Linux installation instructions. This is the preferred method for Windows, but requires the user to have already set up Windows Subsystem for Linux (I use Ubuntu and I acquired it from the Microsoft Store app). As of 4/2/2020, this is actually very user-friendly and is the preferred method here.
+
 
 
 Install msise00 ::
